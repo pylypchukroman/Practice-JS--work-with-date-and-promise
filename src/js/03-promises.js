@@ -1,17 +1,6 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
-
-function createPromise(position, delay) {
-  const shouldResolve = Math.random() > 0.3;
-  if (shouldResolve) {
-    // Fulfill
-  } else {
-    // Reject
-  }
-}
-
 const refs = {
-
 delayNode : document.querySelector('input[name=delay]'),
 stepNode : document.querySelector('input[name=step]'),
 amountNode: document.querySelector('input[name=amount]'),
